@@ -1,0 +1,20 @@
+{
+   "compilerOptions": {
+"baseUrl": "./",
+    "paths": {
+      "@apollo/gateway": ["node_modules/@apollo/gateway"]
+    },
+"esModuleInterop": true,
+      "lib": [
+         "es5",
+         "es6"
+      ],
+      "target": "es5",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "outDir": "./build",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "sourceMap": true,
+   }
+}

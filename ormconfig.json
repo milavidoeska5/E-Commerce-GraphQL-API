@@ -1,0 +1,9 @@
+{
+  "type": "mongodb",
+  "host": "localhost",
+  "port": 27017,
+  "database": "e-commerce",
+  "useUnifiedTopology": true,
+  "entities": ["src/products/**/*.entity{.ts,.js}", "src/images/**/*.entity{.ts,.js}"],
+  "synchronize": true
+}
